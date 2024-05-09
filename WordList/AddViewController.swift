@@ -25,7 +25,7 @@ class AddViewController: UIViewController {
     }
     
     @IBAction func saveWord(){
-//        単語・意味が入力されているときだけ保存できるようにする
+//        単語が入力されているときだけ保存できるようにする
         // TextFieldに入力されている文字がないとき””を代入
         let english = englishTextField.text ?? ""
         let japanese = japaneseTextField.text ?? ""
